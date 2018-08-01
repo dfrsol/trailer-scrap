@@ -1,4 +1,6 @@
-venv
 .idea
 .vscode
 output
+
+__pycache__
+venv
