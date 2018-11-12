@@ -29,8 +29,8 @@ def get_episodes(season_number):
                 '.ipl-rating-star__rating')[0].text.strip()
 
             episode = {
-                "season": season_number,
-                "episode_number": episode_number,
+                "season": int(season_number),
+                "episode_number": int(episode_number),
                 "title": title,
                 "description": description,
                 "air_date": air_date,
